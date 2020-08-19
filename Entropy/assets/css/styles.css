@@ -106,11 +106,19 @@ body {
     border-radius: 2px;
 }
 
+.progressBarBg:hover .progress {
+    background-color: #07d159;
+}
+
 .progress {
     background-color: #a0a0a0;
     height: 4px;
     width: 0;
     border-radius: 2px;
+}
+
+.progress:hover {
+    background-color: #07d159;
 }
 
 .playbackBar .progressBar {

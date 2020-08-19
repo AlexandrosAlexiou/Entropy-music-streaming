@@ -33,7 +33,7 @@ else {
             timer = setTimeout(function() {
                 let val = $(".searchInput").val();
                 openPage("search.php?term=" + val);
-            }, 1000);
+            }, 500);
 
         })
 
